@@ -1,0 +1,3 @@
+mobile 50000
+leptop 100000
+watch 5000

@@ -1,0 +1,19 @@
+#include<iostream>
+#include<fstream>
+using namespace std;
+main()
+{
+    ifstream file("insta_followers.txt");
+
+    string username;
+    int count = 0;
+
+    while(getline(file, username))
+    {
+        count++;
+    }
+
+    file.close();
+
+    cout << "Total Followers: " << count << endl;
+}
