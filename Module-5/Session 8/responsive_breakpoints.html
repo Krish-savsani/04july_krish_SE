@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Responsive Product Card</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f3f6;
+            padding: 20px;
+        }
+
+        .product-card {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            background-color: white;
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px #ccc;
+            font-size: 16px;
+        }
+
+        .product-card img {
+            width: 180px;
+            max-width: 100%;
+            height: 160px;
+            object-fit: contain;
+        }
+
+        .price {
+            color: green;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* Breakpoint 1: 600px */
+        @media only screen and (max-width: 600px) {
+            .product-card {
+                flex-direction: column;
+                text-align: center;
+                font-size: 14px;
+                padding: 12px;
+            }
+
+            .price {
+                font-size: 18px;
+            }
+        }
+
+        /* Breakpoint 2: 900px */
+        @media only screen and (min-width: 601px) and (max-width: 900px) {
+            .product-card {
+                font-size: 16px;
+                padding: 18px;
+            }
+
+            .price {
+                font-size: 20px;
+            }
+        }
+
+        /* Breakpoint 3: 1200px */
+        @media only screen and (min-width: 901px) and (max-width: 1200px) {
+            .product-card {
+                font-size: 18px;
+                padding: 24px;
+            }
+
+            .price {
+                font-size: 22px;
+            }
+        }
+
+        /* Large screens above 1200px */
+        @media only screen and (min-width: 1201px) {
+            .product-card {
+                font-size: 20px;
+                padding: 30px;
+            }
+
+            .price {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="product-card">
+
+        <img src="https://i.pinimg.com/736x/72/2f/61/722f61c87d6d85b6a2901faa489ecc23.jpg"
+             alt="Smartphone">
+
+        <div class="details">
+            <h2>Samsung S26 Ultra</h2>
+            <p>8GB RAM | 128GB Storage</p>
+            <p class="price">₹1,14,999</p>
+            <button>Buy Now</button>
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flipkart Product Tile</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f3f6;
+            padding: 30px;
+        }
+
+        .product {
+            width: 250px;
+            padding: 15px;
+            margin: 20px auto;
+            background-color: white;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        .product img {
+            width: 180px;
+            height: 180px;
+            object-fit: contain;
+            display: block;
+            margin: 0 auto 15px;
+        }
+
+        .product-name {
+            display: block;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .price {
+            display: inline-block;
+            color: green;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .hide-price .price {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="product hide-price">
+
+        <img src="https://i.pinimg.com/1200x/a6/d4/73/a6d473e5bd7fec6c499e4bbdeeaf0268.jpg"
+            alt="Samsung Galaxy S26 Ultra">
+
+        <span class="product-name">
+            Samsung Galaxy S26 Ultra
+        </span>
+
+        <span class="price">₹1,49,999</span>
+
+    </div>
+
+</body>
+
+</html>

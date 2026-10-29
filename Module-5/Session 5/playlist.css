@@ -1,0 +1,9 @@
+.playlist-item {
+    background-color: #181818;
+    color: white;
+}
+
+#currently-playing {
+    background-color: #1DB954;
+    color: white;
+}

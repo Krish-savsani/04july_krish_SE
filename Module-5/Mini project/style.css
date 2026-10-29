@@ -1,0 +1,16 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+}
+
+.hero {
+    background: linear-gradient(135deg, #111827, #0f766e);
+    padding: 80px 15px !important;
+}
+
+.hero p {
+    max-width: 650px;
+    margin: 20px auto;
+    line-height: 1.7;
+}

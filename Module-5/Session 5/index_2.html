@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BookMyShow</title>
+
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            font-family: sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        body.dark-mode {
+            background-color: #222;
+            color: white;
+        }
+
+        button {
+            background-color: #e91e63;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>BookMyShow</h1>
+    <h2>Movie: Pushpa 2</h2>
+    <p>Genre: Action, Drama</p>
+    <p>Enjoy your favourite movies!</p>
+
+    <button onclick="toggleMode()">Toggle Light/Dark Mode</button>
+
+    <script>
+        function toggleMode() {
+            document.body.classList.toggle("dark-mode");
+        }
+    </script>
+
+</body>
+
+</html>

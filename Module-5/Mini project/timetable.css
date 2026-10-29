@@ -1,0 +1,35 @@
+
+.class-table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+.class-table th,
+.class-table td {
+    border: 1px solid #ccc;
+    padding: 10px 5px;
+    text-align: left;
+    overflow-wrap: anywhere;
+}
+
+.class-table th {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.class-table tbody tr:nth-child(even) {
+    background-color: #f2f6fa;
+}
+
+@media (max-width: 400px) {
+    .class-table {
+        font-size: 12px;
+    }
+
+    .class-table th,
+    .class-table td {
+        padding: 7px 3px;
+    }
+}

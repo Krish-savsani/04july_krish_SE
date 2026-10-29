@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Mobile Responsive Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Flipkart Product Card</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f3f6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .product-card {
+            background-color: white;
+            width: 280px;
+            max-width: 100%;
+            margin: 30px auto;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px #ccc;
+            box-sizing: border-box;
+        }
+
+        .product-card img {
+            width: 100%;
+            max-width: 200px;
+            height: 180px;
+            object-fit: contain;
+        }
+
+        .product-card h2 {
+            font-size: 20px;
+        }
+
+        .price {
+            color: green;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .btn {
+            background-color: #2874f0;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Mobile screens */
+        @media (max-width: 480px) {
+            body {
+                padding: 10px;
+            }
+
+            .product-card {
+                width: 100%;
+                margin: 15px auto;
+            }
+
+            .product-card h2 {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="product-card">
+
+        <img src="https://i.pinimg.com/736x/72/2f/61/722f61c87d6d85b6a2901faa489ecc23.jpg"
+             alt="Smartphone">
+
+        <h2>Samsung S26 Ultra</h2>
+
+        <p>8GB RAM | 128GB Storage</p>
+
+        <p class="price">₹1,14,999</p>
+
+        <button class="btn">Buy Now</button>
+
+    </div>
+
+</body>
+</html>

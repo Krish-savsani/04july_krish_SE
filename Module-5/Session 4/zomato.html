@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato Restaurant Listing</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #e23744;
+            text-align: center;
+        }
+
+        .restaurant-list {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        article {
+            background-color: white;
+            width: 280px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px #cccccc;
+        }
+
+        article img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+        }
+
+        article header,
+        article p,
+        article footer {
+            padding: 10px 15px;
+        }
+
+        article header h2 {
+            margin: 0;
+            font-size: 20px;
+        }
+
+        article p {
+            margin: 0;
+            color: #666666;
+        }
+
+        article footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+        }
+
+        .rating {
+            background-color: #267e3e;
+            color: white;
+            padding: 5px 8px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Zomato</h1>
+    <h2>Popular Restaurants</h2>
+
+    <section class="restaurant-list">
+
+        <article>
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600" alt="Pizza restaurant food">
+
+            <header>
+                <h2>Pizza Palace</h2>
+            </header>
+
+            <p>Pizza, Italian, Fast Food</p>
+            <p>₹300 for two</p>
+
+            <footer>
+                <span class="rating">4.5</span>
+                <span>25-30 min</span>
+            </footer>
+        </article>
+
+        <article>
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600" alt="Burger restaurant food">
+
+            <header>
+                <h2>Burger House</h2>
+            </header>
+
+            <p>Burgers, Sandwiches, Fast Food</p>
+            <p>₹250 for two</p>
+
+            <footer>
+                <span class="rating">4.2</span>
+                <span>20-25 min</span>
+            </footer>
+        </article>
+
+        <article>
+            <img src="https://i.pinimg.com/736x/cc/74/2d/cc742d5b13506e482f3b7536dcda99dc.jpg"
+                alt="Gujarati thali restaurant food">
+
+            <header>
+                <h2>Gujarati Thali</h2>
+            </header>
+
+            <p>Gujarati, North Indian, Thali</p>
+            <p>₹400 for two</p>
+
+            <footer>
+                <span class="rating">4.7</span>
+                <span>30-35 min</span>
+            </footer>
+        </article>
+
+    </section>
+
+</body>
+
+</html>

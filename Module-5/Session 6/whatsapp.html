@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Chat Badge</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f3f6;
+            margin: 0;
+            padding: 20px;
+            height: 1500px;
+        }
+
+        .chat-badge {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            margin: 10px;
+            padding: 15px 20px;
+            background-color: #25D366;
+            color: white;
+            border-radius: 30px;
+            font-size: 16px;
+            font-weight: bold;
+            box-shadow: 0 3px 8px #999;
+            cursor: pointer;
+        }
+
+        .notification {
+            display: inline-block;
+            background-color: red;
+            color: white;
+            padding: 3px 7px;
+            margin-left: 8px;
+            border-radius: 50%;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>WhatsApp Chat Notification</h2>
+    <p>Scroll down to see that the badge stays in the same position.</p>
+
+    <div class="chat-badge">
+        WhatsApp 
+        <span class="notification">3</span>
+    </div>
+
+</body>
+</html>

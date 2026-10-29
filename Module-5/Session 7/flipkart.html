@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flipkart Product Grid</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f3f6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #2874f0;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product-card {
+            background-color: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px #ccc;
+        }
+
+        .product-card img {
+            width: 150px;
+            height: 150px;
+            object-fit: contain;
+        }
+
+        .product-card h3 {
+            font-size: 18px;
+        }
+
+        .price {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Flipkart Products</h1>
+
+    <section class="product-grid">
+
+        <div class="product-card">
+            <img src="https://i.pinimg.com/736x/72/2f/61/722f61c87d6d85b6a2901faa489ecc23.jpg" alt="Mobile">
+            <h3>Smartphone</h3>
+            <p class="price">₹1,12,999</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://i.pinimg.com/736x/58/69/bc/5869bcde4d71d84c0885c1e372d5f23d.jpg" alt="Laptop">
+            <h3>Laptop</h3>
+            <p class="price">₹1,45,999</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://i.pinimg.com/736x/c2/6a/1d/c26a1d17d505a0884610d8b2c590f2a3.jpg" alt="Headphones">
+            <h3>Samsung buds</h3>
+            <p class="price">₹1,499</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://i.pinimg.com/736x/8a/0e/dd/8a0eddc96f71a6883e63ea9d969a1c97.jpg" alt="Watch">
+            <h3>Smart Watch</h3>
+            <p class="price">₹2,499</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://i.pinimg.com/736x/de/2d/02/de2d021e61235ccfcd81fa355f6790fc.jpg" alt="Shoes">
+            <h3>Sports Shoes</h3>
+            <p class="price">₹1,999</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://i.pinimg.com/736x/15/c2/fa/15c2fa240fe47de2df859a41d0c8708d.jpg" alt="Camera">
+            <h3>Digital Camera</h3>
+            <p class="price">₹25,999</p>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
